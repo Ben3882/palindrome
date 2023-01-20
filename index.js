@@ -28,7 +28,7 @@ function Phrase(content) {
 }
 
 //defines a translated phrase object
-/*function TranslatedPhrase(content, translation) {
+function TranslatedPhrase(content, translation) {
     this.content = content;
     this.translation = translation;
 
@@ -38,7 +38,7 @@ function Phrase(content) {
 }
 
 TranslatedPhrase.prototype = new Phrase();
-*/
+
 
 /*let phrase = new Phrase("Racecar");
 let p = new Phrase("can you hear me now?");
