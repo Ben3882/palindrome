@@ -40,6 +40,7 @@ function TranslatedPhrase(content, translation) {
 TranslatedPhrase.prototype = new Phrase();
 
 
+
 /*let phrase = new Phrase("Racecar");
 let p = new Phrase("can you hear me now?");
 let napoleonsLament = new Phrase("Able was I ere I saw Elba");
