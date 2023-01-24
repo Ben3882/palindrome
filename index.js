@@ -13,9 +13,12 @@ function Phrase(content) {
 
     //returns a string in all lower case
     this.processedContent = function processedContent() {
-        return this.content.toLowerCase();
+        return this.letters().toLowerCase();
     }
-
+    //returns the letters in the content
+    this.letters = function letters () {
+        return (this.content.match(/[a-z]/ig) || []).join("");
+    }
     //returns "true" for a palindrome, or "false"
     this.palindrome = function palindrome() {
         return this.processedContent()===this.processedContent().reverse();
