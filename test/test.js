@@ -23,6 +23,11 @@ describe("Phrase", function() {
             let punctuatedPalindrome = new Phrase("Madam, I'm Adam.")
             assert(punctuatedPalindrome.palindrome());
         })
+
+        it("should be false for a no letter result", function () {
+            let noLetterPalindrone = new Phrase("123");
+            assert(!noLetterPalindrone.palindrome());
+        })
      
     });
     describe("#letters", function() {

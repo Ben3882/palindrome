@@ -17,7 +17,7 @@ function Phrase(content) {
     }
     //returns the letters in the content
     this.letters = function letters () {
-        return (this.content.match(/[a-z]/ig) || []).join("");
+        return (this.content.match(/[a-z]/ig) || ["n", "o", "t",]).join("");
     }
     //returns "true" for a palindrome, or "false"
     this.palindrome = function palindrome() {
